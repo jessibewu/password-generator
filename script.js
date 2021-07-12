@@ -49,7 +49,7 @@ console.log(generateBtn);
     }
     // Else if for 4 negative options
 	 if (!promptLowercase && !promptUppercase && !promptNum && !promptSpecial) {
-          window.alert('Please choose at least a criteria.');
+          window.alert('Please choose at least one character type (i.e., lowercase, uppercase, numeric, and/or special characters).');
 		  return generatePassword();
 		  }
   
